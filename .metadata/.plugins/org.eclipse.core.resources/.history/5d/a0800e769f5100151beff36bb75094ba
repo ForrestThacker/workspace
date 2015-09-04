@@ -1,0 +1,9 @@
+package dummbo;
+
+public class wumbo
+{
+	public static void main (String[] args) 
+	}
+
+}
+}

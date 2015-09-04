@@ -1,0 +1,13 @@
+package dummbo;
+
+public class wumbo
+{
+	public static void main (String[] args) 
+	{
+		System.out.println("This is my third wumbo in Java :I");
+		System.out.println("I suck at computer science :I");
+		System.out.println("My friend's name is Josh");
+		System.out.println("My brother is Harry");
+	}
+}
+	

@@ -1,0 +1,9 @@
+package still.useless;
+
+public class wamham
+{
+	public static void main (String [] args)
+	{
+
+	}
+}

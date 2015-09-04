@@ -1,0 +1,29 @@
+package input.controller;
+
+import java.util.Scanner;
+
+public class InputController
+{
+	private Scanner myInput;
+
+	public InputController()
+	{
+		myInput = new Scanner(System.in);
+	}
+
+	public void start()
+	{
+		System.out.println("Hey, what is your name?");
+		String input;
+		input = myInput.next();
+		myInput.nextLine();
+	  	System.out.println("Your name's "+ input + "? sucks to be you, m8.");
+	  	System.out.println("Uh wot m8? Your full name pls");
+	  	String fullName = myInput.nextLine();
+	  	System.out.println("Your dumb name is: " + fullName);
+	  	System.out.println("Whats your age hot stuff?");
+	  	int myAge = myInput.nextInt();
+	  	System.out.println("Wow " + input + " You is " + myAge + " years old m8?");
+	}
+	
+}

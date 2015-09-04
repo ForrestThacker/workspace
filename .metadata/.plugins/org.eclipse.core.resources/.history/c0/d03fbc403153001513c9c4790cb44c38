@@ -1,0 +1,22 @@
+package input.controller;
+
+import java.util.Scanner;
+
+public class InputController
+{
+	private Scanner myInput;
+
+	public InputController()
+	{
+		myInput = new Scanner(System.in);
+	}
+
+	public void start()
+	{
+		System.out.println("Hey, what is your name?");
+		String input;
+		input = myInput.next();
+	}
+	
+}
+	
